@@ -10,12 +10,10 @@ namespace PDFDisplayer.Controllers
 {
     public class HomeController : Controller
     {
-
         public IActionResult Index(string url)
         {
             ViewBag.url = url;
             return View();
         }
-
     }
 }
